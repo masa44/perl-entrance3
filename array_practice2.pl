@@ -5,7 +5,8 @@ use warnings;
 
 #joinを使って電話番号を出力
 my @array = qw/0120 123 XXX/;
-print join ('-', @array) . "\n";
+print join '-', @array;
+print "\n";
 
 #splitを使ってperlのパスを分解
 my $str = '/usr/bin/env perl';

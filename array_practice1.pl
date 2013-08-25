@@ -7,7 +7,7 @@ my @array = ('Alice', 'Bob');
 unshift(@array, 'Amon2');
 push(@array, 'Catalyst');
 
-print @array . "\n";
+print "@array\n";
 
 shift @array;
 print shift ( @array ) . "\n";
