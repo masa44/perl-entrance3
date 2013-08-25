@@ -7,9 +7,7 @@ my @array = ('Alice', 'Bob');
 unshift(@array, 'Amon2');
 push(@array, 'Catalyst');
 
-foreach my $var (@array){
-    print $var . "\n";
-}
+print @array . "\n";
 
 shift @array;
 print shift ( @array ) . "\n";
