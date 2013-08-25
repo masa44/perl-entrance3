@@ -8,13 +8,11 @@ unshift(@array, 'Amon2');
 push(@array, 'Catalyst');
 
 foreach my $var (@array){
-    print "$var\n";
+    print $var . "\n";
 }
 
 shift @array;
-print ( shift @array );
-print "\n";
+print shift ( @array ) . "\n";
 
 pop @array;
-print ( pop @array );
-print "\n";
+print pop ( @array ) . "\n";
